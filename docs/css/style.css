@@ -35,6 +35,20 @@ ul, ol {
     gap: 1em;
 }
 
+.download-btn {
+    border-radius: 1rem;
+    font-weight: 300;
+    font-size: 1em;
+    padding: 0 1.25rem;
+    line-height: 2rem;
+}
+
+.download-btn:hover {
+    background-color: #ffffff;
+    border-color: #000;
+    color: #000;
+}
+
 .icons li a .label {
     display: none;
 }
