@@ -1,0 +1,153 @@
+body {
+    background-image: radial-gradient(rgba(65, 59, 60, 0.8),rgba(36, 34, 34, 0.8), rgba(0, 0, 0, 0.8)), url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h20L0 20z' fill='%23000000' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+    background-position: center;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+    border: #000000 4px solid;
+}
+
+main h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+main h2 {
+    font-size: 16px;
+}
+main ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+ul, ol {
+    padding-left: 0;
+}
+
+.icons {
+    gap: 1em;
+}
+
+.icons li a .label {
+    display: none;
+}
+
+.icons .telegram {
+    background-color: #229ED9;
+}
+
+.icons .whatsapp {
+    background-color: #28D146;
+}
+
+.icons .fb-messenger {
+    background-color: #006AFF;
+}
+
+.icons .discord {
+    background-color: #5865F2;
+}
+
+.icons .phone {
+    background-color: #A4C639;
+}
+
+.icons .email {
+    background-color: #DB4437;
+}
+
+.icons .snapchat {
+    background-color: #FFFC00;
+}
+
+.icons .twitter {
+    background-color: #ffffff;
+}
+
+.icons .instagram {
+    background-color: #E1306C;
+}
+
+.icons .fb {
+    background-color: #4267B2;
+}
+
+.icons .tiktok {
+    background-color: #25F4EE;
+}
+
+.icons .linkedin {
+    background-color: #0077B5;
+}
+
+.icons .youtube {
+    background-color: #FF0000;
+}
+
+.icons .steam {
+    background-color: #00A7E8;
+}
+
+.icons .imdb {
+    background-color: #DBA506;
+}
+
+.icons .upwork {
+    background-color: #6FDA44;
+}
+
+.icons .tripadvisor {
+    background-color: #34E0A1;
+}
+
+.icons .paypal {
+    background-color: #253B80;
+}
+
+.icons .venmo {
+    background-color: #008CFF;
+}
+
+.icons .zelle {
+    background-color: #A020F0;
+}
+
+.icons .bitcoin {
+    background-color: #F7931A;
+}
+
+.icons .ethereum {
+    background-color: #497493;
+}
+
+.icons a {
+    color: black;
+}
+
+.icons li a svg {
+    height: 65%;
+    width: 65%;
+    transition: fill 0.375s ease;
+}
+
+.icons li a {
+    border-radius: 100%;
+    height: 3.2em;
+    width: 3.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.375s ease;
+    box-shadow: 0rem 0rem 0rem 0.125rem #000000;
+}
+
+.icons li a:hover {
+    transform: scale(1.1);
+}
